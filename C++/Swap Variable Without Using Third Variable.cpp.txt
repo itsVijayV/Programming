@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num1, num2;
+
+    cout << "Enter Two Number :";
+    cin >> num1 >> num2;
+
+    cout << "You Entered First Number Value :" << num1 << endl << "You Enter Secound Number Value :" << num2 << endl;
+
+    num1 = num1 + num2;
+    num2 = num1 - num2;
+    num1 = num1 - num2;
+
+    cout << "After Swaping Two Numbers , First Numbers Value :" << num1 << endl << "Secound Number Value is :" << num2;
+
+}
